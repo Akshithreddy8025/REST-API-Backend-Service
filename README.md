@@ -1,13 +1,14 @@
 # REST API Backend Service
 
-A secure and scalable REST API backend built using Node.js, Express.js, MongoDB, and JWT authentication.  
-This project includes user authentication, protected routes, task CRUD operations, search, pagination, filtering, sorting, and professional error handling.
+A secure and scalable REST API backend built using Node.js, Express.js, MongoDB, and JWT authentication.
+
+This project includes user authentication, protected routes, task CRUD operations, search, pagination, filtering, sorting, MongoDB Atlas integration, and centralized error handling.
 
 ## 🚀 Features
 
 - User registration and login
 - JWT authentication
-- Password hashing with bcrypt
+- Password hashing using bcryptjs
 - Protected routes
 - Task CRUD operations
 - User-specific task management
@@ -15,7 +16,7 @@ This project includes user authentication, protected routes, task CRUD operation
 - Pagination support
 - Filter tasks by completion status
 - Sort tasks by newest or oldest
-- MongoDB Atlas integration
+- MongoDB Atlas database connection
 - Centralized error handling
 - MVC folder structure
 
@@ -47,8 +48,6 @@ backend-api/
 └── README.md
 
 
-
-
 ⚙️ Installation
 git clone https://github.com/Akshithreddy8025/REST-API-Backend-Service.git
 cd REST-API-Backend-Service
@@ -61,6 +60,9 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 NODE_ENV=development
+
+Do not upload your .env file to GitHub.
+
 ▶️ Run Project
 npm run dev
 
@@ -81,9 +83,6 @@ GET /api/tasks?search=backend&page=1&limit=5
 GET /api/tasks?completed=true&sort=oldest
 GET /api/tasks?completed=false&sort=newest
 🔐 Protected Route Header
-
-For protected routes, add this header:
-
 Authorization: Bearer YOUR_JWT_TOKEN
 📦 Example Register Request
 {
@@ -99,6 +98,10 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 Completed locally with authentication, authorization, CRUD, search, pagination, filtering, sorting, and error handling.
 
+🧠 Resume Description
+
+Designed and developed a secure REST API backend using Node.js, Express.js, MongoDB, and JWT authentication. Implemented user registration, login, protected routes, password hashing, user-specific CRUD operations, search, pagination, filtering, sorting, and centralized error handling using scalable MVC architecture.
 
 👨‍💻 Author
+
 Akshith Reddy
