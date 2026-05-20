@@ -45,6 +45,7 @@ backend-api/
 ├── package.json
 ├── server.js
 └── README.md
+
 ⚙️ Installation
 git clone https://github.com/Akshithreddy8025/REST-API-Backend-Service.git
 cd REST-API-Backend-Service
@@ -95,6 +96,6 @@ Authorization: Bearer YOUR_JWT_TOKEN
 
 Completed locally with authentication, authorization, CRUD, search, pagination, filtering, sorting, and error handling.
 
-👨‍💻 Author
 
+👨‍💻 Author
 Akshith Reddy
